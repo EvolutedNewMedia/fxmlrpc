@@ -149,6 +149,7 @@ class XmlReaderParser implements ParserInterface
                                 'nil'              => true,
                                 'dom'              => true,
                                 '#text'            => true,
+                                'value'            => true
                             );
                             $type = 'value';
                             break;
